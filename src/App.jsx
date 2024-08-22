@@ -1,6 +1,7 @@
 import "./App.css";
 import Carousel from "./components/carousel/Carousel";
 import InfiniteScroll from "./components/infinite-scroll/InfiniteScroll";
+import { Progressbar } from "./components/progress-bar/Progressbar";
 
 function App() {
   return (
@@ -15,6 +16,11 @@ function App() {
         <div className="infiniteScroll-div">
           <h4>InfiniteScroll</h4>
           <InfiniteScroll />
+        </div>
+
+        <div className="progrssbar-div">
+          <h4>Progressbar</h4>
+          <Progressbar />
         </div>
       </div>
     </>
