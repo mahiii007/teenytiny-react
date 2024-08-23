@@ -1,0 +1,42 @@
+input {
+  height: 40px;
+  width: 30px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+
+  outline: none;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(94, 99, 92);
+  cursor: pointer;
+}
+.countdown-container {
+  background-color: gray;
+  /* color: #fff; */
+}
+
+.countdown-output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    background-color: rgb(68, 68, 104);
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  span {
+    font-weight: bold;
+  }
+}

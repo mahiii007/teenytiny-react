@@ -2,6 +2,7 @@ import "./App.css";
 import Carousel from "./components/carousel/Carousel";
 import InfiniteScroll from "./components/infinite-scroll/InfiniteScroll";
 import { Progressbar } from "./components/progress-bar/Progressbar";
+import { CountdownTimer } from "./components/countdown-timer/CountdownTimer";
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
         <div className="progrssbar-div">
           <h4>Progressbar</h4>
           <Progressbar />
+        </div>
+
+        <div className="countdowntimer-div">
+          <h4>CountdownTimer</h4>
+          <CountdownTimer></CountdownTimer>
         </div>
       </div>
     </>
