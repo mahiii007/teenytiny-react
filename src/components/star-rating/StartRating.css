@@ -1,0 +1,20 @@
+#star-btn {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.filled {
+  color: #ffd700; /* golden yellow color */
+  background-color: #ffd700;
+}
+
+.blank {
+  background-color: #fff;
+}

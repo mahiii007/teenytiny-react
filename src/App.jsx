@@ -4,7 +4,7 @@ import InfiniteScroll from "./components/infinite-scroll/InfiniteScroll";
 import { Progressbar } from "./components/progress-bar/Progressbar";
 import { CountdownTimer } from "./components/countdown-timer/CountdownTimer";
 import Counter from "./components/counter/Counter";
-Counter;
+import { StarRating } from "./components/star-rating/StarRating";
 
 function App() {
   return (
@@ -35,9 +35,17 @@ function App() {
           <h4>Counter</h4>
           <Counter></Counter>
         </div>
+
+        <div className="starrating-div">
+          <h4>Star Rating</h4>
+          <StarRating />
+        </div>
       </div>
     </>
   );
 }
+console.log(" ----------------------------------");
+console.log("<h4>Counter</h4>:", <h4>Counter</h4>);
+console.log(" ----------------------------------");
 
 export default App;

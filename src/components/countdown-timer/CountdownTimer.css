@@ -9,17 +9,34 @@ input {
   border: none;
 }
 
-button {
-  padding: 10px;
-  margin: 10px;
-  background-color: blueviolet;
-  color: #fff;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px rgb(94, 99, 92);
-  cursor: pointer;
+.btn-container {
+  button {
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(94, 99, 92);
+    cursor: pointer;
+  }
 }
+
+.countdown-output-btn {
+  button {
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(94, 99, 92);
+    cursor: pointer;
+  }
+}
+
 .countdown-container {
   background-color: gray;
   /* color: #fff; */
